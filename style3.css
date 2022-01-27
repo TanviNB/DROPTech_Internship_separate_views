@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 100%;
+    height: 99vh;
+    display: inline-block;
+    max-height: 99vh;
+    max-width: 100vw;
+    /* background: #000; */
+    background: black;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    /* position: absolute; */
+    /* top: 7.5%;
+    left: 10%; */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    vertical-align: middle;
+    animation: crescendo 1.5s forwards ease-in;
+    /* overflow: hidden; */
+}
+  
+@keyframes crescendo {
+    0%   {transform: scale(1.2);}
+    100% {transform: scale(2.0);}
+}
